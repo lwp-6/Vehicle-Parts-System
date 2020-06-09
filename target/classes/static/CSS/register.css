@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#hh1{
+	font-size:40px;
+	color: black;
+}
+.register_div{
+	width:648px;
+	height:460px;
+	position:fixed;
+    top: 0px;
+    left: -90px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+	text-align: center;
+	background:#FCFCFC;
+	border-radius: 25px;
+}
+.register_div input{
+	width:420px;
+	height:30px;
+	font-size:20px;
+}
+#k1{
+	font-size:18px;
+}
+#b_r{
+	background: #B1AEAE;
+	width: 360px;
+	height: 50px;
+	font-size:18px;
+	color: black;
+	border-radius: 20px;
+	cursor:pointer;
+	position: absolute;
+	left:150px;
+	top:400px;
+}

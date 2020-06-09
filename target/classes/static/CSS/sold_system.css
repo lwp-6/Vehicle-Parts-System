@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+#head{
+	height:75px;
+	width:1920px;
+	background:#363735;
+	color:white;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.user_div{
+	position: fixed;
+	right: 50px;
+	top: 0px;
+	width:150px;
+	background:#363735;
+	border-radius: 12px;
+	color:white;
+}
+.user_div li{
+	list-style: none;
+	font-size:18px;
+}
+.user_div ul{
+	font-size:25px;
+}
+#two1,#two2, #two3{
+	display: none;
+}
+
+ul:hover #two1{
+	display:block;
+	cursor: pointer;
+}
+ul:hover #two2{
+	display:block;
+	cursor: pointer;
+}
+ul:hover #two3{
+	display:block;
+	cursor: pointer;
+}
+#input_partsname{
+	position:absolute;
+	width:600px;
+	height:30px;
+	left:650px;
+	top:240px;
+	font-size: 18px;
+}
+.search_button{
+	position:absolute;
+	top:241px;
+	left:1257px;
+	width:36px;
+	height:36px;
+	background: url("/images/search.jpg") no-repeat;
+	background-color: white;
+	cursor:pointer;
+}
+.output_div{
+	position:absolute;
+	top:410px;
+	left:340px;
+}
+#output{
+	position:absolute;
+	width:1200px;
+	top:-70px;
+	border-collapse: collapse;
+	background: white;
+}
+#output tr{
+	height:40px;
+	font-size:20px;
+}
+#output tr:first-child{
+	background:#B1AEAE;
+	color:black;
+	font-size:23px;
+}
+#output tr:hover{
+	background-color:#B1AEAE;
+}
+#order_div{
+	position:fixed;
+	top:280px;
+	left:600px;
+	
+}
+#order_div table{
+	width:800px;
+	border-collapse: collapse;
+	color:black;
+}
+#order_div table tr:first-child{
+	background: #EAED69;
+}
+#order_div table tr{
+	height:40px;
+	font-size:20px;
+	background: whitesmoke;
+}
+#order_div p{
+	font-size:25px;
+	position:absolute;
+	left:300px;
+	top:-60px;
+}
+#update_info{
+	position:absolute;
+	left:495px;
+	top:-4px;
+	font-size: 18px;
+    width: 150px;
+}
+#update_table{
+	border-collapse: collapse;
+	position: absolute;
+	left:600px;
+	top:40px;
+	width:400px;
+}
+#update_id{
+	width:56px;
+}
+#update_price{
+	width:30px;
+}
+#update_quantity{
+	width:62px;
+}
+#update_name{
+	width:70px;
+}
+#update_information{
+	width:120px;
+}
+#update_button{
+	position: absolute;
+	right:82px;
+	top:60px;
+	width:56px;
+	height:30px;
+	border-radius: 5px;
+}
+#add_div{
+	width:250px;
+	position:absolute;
+	left:20px;
+	top:0px;
+}
+#add_div input{
+	border-radius: 6px;
+	width: 60%;
+	height: 19px;
+}
+#delete_div{
+	position: absolute;
+	left:300px;
+	top:0px;
+}
+#delete_div input{
+	border-radius: 6px;
+	width:60%;
+	height:19px;
+}
+#operation{
+	z-index:-100;
+	width:1200px;
+	height:200px;
+	position: absolute;
+	left:340px;
+	top:120px;
+	background:#B1AEAE;
+	border-radius: 8px;
+}#myparts{
+	border-collapse: collapse;
+	position:fixed;
+	right:0;
+	top:240px;
+	width:370px;
+}
+#myparts tr{
+	height:40px;
+	background: white;
+}
+#myparts tr:first-child{
+	background: #00C3FF;
+}

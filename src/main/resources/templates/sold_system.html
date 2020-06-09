@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>零件采购系统</title>
+    <script src="/JS/jquery-1.11.0.min.js"></script>
+    <script src="/JS/showparts.js"></script>
+    <script src="/JS/sold_system.js"></script>
+<link href="/CSS/sold_system.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="sold_system()">
+
+<div id="head">
+	<h1>汽车零件采购系统</h1>
+</div>
+
+
+<div>
+   <input type="text" name="partsname" id="input_partsname" placeholder="请输入要搜索的零件名"/><br>
+   <input type="button" onclick="showp()" class="search_button"/><br>
+</div>
+
+<div id="operation">
+    <div id="add_div">
+		<p>&nbsp;&nbsp;零件名&nbsp;&nbsp;<input type="text" name="partsname" id="add_partsname"/></p>
+        <p>&nbsp;&nbsp;&nbsp;数量&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="quantity" id="add_quantity"/></p>
+        <p>&nbsp;&nbsp;&nbsp;价格&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="price" id="add_price"/></p>
+        <input type="hidden" name="username" th:value="${session.session_user.getUsername()}"/>
+        <p>零件信息<input type="text" name="information" id="add_information"/></p>
+        <input type="button" value="增加" onclick="addparts()"/>
+    </div>
+
+<div id="delete_div">
+
+        <p>零件编号<input type="text" id="partsid"/></p>
+        <input type="hidden" name="username" th:value="${session.session_user.getUsername()}" id="un"/>
+        <input type="button" value="删除" onclick="deleteparts()"/><br>
+
+    <p id="update_info">修改零件信息</p>
+</div>
+
+    <table id="update_table" border="1">
+        <tr>
+            <th>零件编号</th>
+            <th>零件名</th>
+            <th>现有库存</th>
+            <th>价格</th>
+            <th>相关规格参数</th>
+        </tr>
+        <tr>
+            <th><input id="update_id"/></th>
+            <th><input id="update_name"/></th>
+            <th><input id="update_quantity"/></th>
+            <th><input id="update_price"/></th>
+            <th><input id="update_information"/></th>
+        </tr>
+    </table>
+    <button id="update_button" onclick="updateparts()">保存</button>
+
+</div>	
+
+<div class="output_div">
+    <table id="output" border="1">
+        <tr>
+            <th>零件编号</th>
+            <th>零件名</th>
+            <th>现有库存</th>
+            <th>价格</th>
+            <th>相关规格参数</th>
+            <th>卖家</th>
+        </tr>
+    </table>
+</div>
+	
+
+<div class="user_div">
+    <ul id="one">
+        <li th:text="'用户:'+ ${session.session_user.getUsername()}"></li>
+		<!--<li>用户:Apple</li>-->
+ 
+		<li id="two1"><a id="showmyorder" style="text-decoration:none; color:white">我的订单</a></li>
+        <li id="two2"><a id="showmyparts" style="text-decoration:none; color:white">我的仓库</a></li>
+        <li id="two3"><a id="updatepassword" style="text-decoration:none; color:white" href="/home/update_system">修改密码</a></li>
+    </ul>
+</div>
+	
+<!--<button onclick="flushmy()">刷新</button>	-->
+<div id="parts_div" style="display: none;">
+    <table id="myparts" border="1">
+        <tr>
+            <th>编号</th>
+            <th>零件名</th>
+            <th>库存</th>
+            <th>价格</th>
+            <th>规格参数</th>
+        </tr>
+    </table>
+</div>
+<div id="order_div" style="display: none;">
+    <p>《我的订单》</p>
+    <table id="myorder" border="1">
+        <tr>
+            <th>订单号</th>
+            <th>零件名</th>
+            <th>购买数量</th>
+            <th>买家</th>
+            <th>订单总价格</th>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

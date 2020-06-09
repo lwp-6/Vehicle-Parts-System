@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.springboottest1.mapper.userMapper" >
+
+    <resultMap id="BaseResultMap" type="com.example.springboottest1.entity.User" >
+      <id column="id" property="id" jdbcType="INTEGER" />
+      <result column="username" property="username" jdbcType="VARCHAR" />
+      <result column="company" property="company" jdbcType="VARCHAR" />
+        <result column="kind" property="kind" jdbcType="VARCHAR" />
+        <result column="password" property="password" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,
+        username,
+        password,
+        company,
+        kind
+    </sql>
+
+    <select id="userlogin" parameterType="user" resultType="User">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM user WHERE username = #{username} AND password = #{password}
+    </select>
+
+    <insert id="adduser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user (username,password,company, kind) VALUES (#{username},#{password},#{company},#{kind})
+    </insert>
+
+    <select id="userSearch" parameterType="user" resultType="User">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM user WHERE username = #{username}
+    </select>
+
+    <update id="updatepassword" parameterType="user">
+        UPDATE
+        user SET password=#{password}
+        where username=#{username}
+    </update>
+
+</mapper>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>零件采购系统</title>
+    <script src="/JS/jquery-1.11.0.min.js"></script>
+    <script src="/JS/showparts.js"></script>
+
+<link href="/CSS/t_system.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="show_all()">
+<div id="head">
+    <h1>汽车零件采购系统</h1>
+    <p>(未登录只能使用搜索功能)</p>
+</div>
+
+<img src="/images/car.png" id="carimg"/>
+
+    <div class="search_div">
+        <input type="text" name="partsname" id="input_partsname" class="input" placeholder="请输入零件名"/>
+        <input type="button" onclick="showp()" class="button_search"/><br>
+    </div>
+<div class="table_div">
+    <table class="table" id="output" border="1">
+
+            <th>零件编号</th>
+            <th>零件名</th>
+            <th>现有库存</th>
+            <th>价格</th>
+            <th>相关规格参数</th>
+            <th>卖家</th>
+
+    </table>
+</div>
+</body>
+</html>

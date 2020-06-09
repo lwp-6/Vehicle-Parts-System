@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.springboottest1.mapper.partsMapper" >
+
+    <resultMap id="BaseResultMap2" type="com.example.springboottest1.entity.Parts" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="partsname" property="partsname" jdbcType="VARCHAR" />
+        <result column="quantity" property="quantity" jdbcType="INTEGER" />
+        <result column="price" property="price" jdbcType="DOUBLE" />
+        <result column="username" property="username" jdbcType="VARCHAR" />
+        <result column="information" property="information" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List2" >
+        id,
+        partsname,
+        quantity,
+        price,
+        username,
+        information
+    </sql>
+
+    <select id="partsSearchall" resultType="Parts">
+        SELECT *
+        FROM parts
+    </select>
+
+    <select id="partsSearchbyid" parameterType="parts" resultType="Parts">
+        SELECT
+        <include refid="Base_Column_List2" />
+        FROM parts WHERE id = #{id}
+    </select>
+
+    <select id="partsSearchbyname" parameterType="parts" resultType="Parts">
+        SELECT
+        <include refid="Base_Column_List2" />
+        FROM parts WHERE partsname = #{partsname}
+    </select>
+
+    <select id="partsSearchbyusername" parameterType="parts" resultType="Parts">
+        SELECT
+        <include refid="Base_Column_List2" />
+        FROM parts WHERE username = #{username}
+    </select>
+
+    <insert id="addparts" parameterType="parts" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO parts (partsname,quantity,price,username,information) VALUES (#{partsname},#{quantity},#{price},#{username},#{information})
+    </insert>
+
+    <delete id="deleteparts" parameterType="parts">
+        DELETE
+        FROM parts WHERE id = #{id}
+    </delete>
+
+    <update id="updateparts" parameterType="parts">
+        UPDATE
+        parts SET partsname=#{partsname}, quantity=#{quantity}, price=#{price}, information=#{information}
+        where id=#{id}
+    </update>
+</mapper>

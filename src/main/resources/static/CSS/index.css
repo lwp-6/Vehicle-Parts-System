@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.login{
+	width:648px;
+	height:360px;
+	position:fixed;
+    top: 0px;
+    left: -90px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+	text-align: center;
+	background:#FCFCFC;
+	border-radius: 25px;
+}
+.login h1{
+	font-size:40px;
+	color: black;
+}
+.innerlogin{
+	width:648px;
+	height: auto;
+	position:absolute;
+
+}
+.innerlogin p{
+	font-size:20px;
+
+}
+.userinput{
+	width:420px;
+	height:30px;
+	background: url(/images/username.png) no-repeat;
+	background-position:0px;
+	font-size:20px;
+}
+.passwordinput{
+	width:420px;
+	height:30px;
+	background: url(/images/password.png) no-repeat;
+	background-position:0px;
+	font-size:20px;
+}
+.loginsubmit{
+	background: #B1AEAE;
+	width: 360px;
+	height: 50px;
+	font-size:18px;
+	color: black;
+	border-radius: 20px;
+	cursor:pointer;
+}
+.a1{
+	position: absolute;
+	bottom:0px;
+	right:10px;
+	font-size: 25px;
+	text-decoration:none;
+	color:#FD0509;
+}
+.a2{
+
+	text-decoration:none;
+	position:absolute;
+	left:260px;
+	bottom:20px;
+	color:black;
+}

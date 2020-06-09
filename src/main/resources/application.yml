@@ -1,0 +1,15 @@
+
+server:
+  port: 8080
+
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/rjgc4110?useSSL=false
+        username: rjgc
+        password: rjgc123
+        driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.springboottest1.entity

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbc5b0a6-06a0-4b14-89b1-5ce542808e18" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UI6Zt4VOZJAX13GTLbXo9jgF0r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543386581404" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.45588234" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\testObject1\src\main\resources\static" />
+      <recent name="E:\testObject1\src\main\resources\static\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springboottest1.sendEmail" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\testObject1\src\main\resources\static\CSS" />
+      <recent name="E:\IdeaProjects\testObject1\src\main\resources\templates" />
+      <recent name="E:\IdeaProjects\testObject1\src\main\resources\static\images" />
+      <recent name="E:\IdeaProjects\testObject1\src\main\resources\static\JS" />
+      <recent name="E:\新建文件夹\创建springboot项目\创建springboot项目\创建springboot项目\testObject1\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springboottest1Application">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelTagsUtil" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboottest1.test.DelTagsUtil" />
+      <module name="testObject1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboottest1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLucene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboottest1.luncene.TestLucene" />
+      <module name="testObject1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboottest1.luncene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testArr" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboottest1.test.testArr" />
+      <module name="testObject1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboottest1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="showparts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/JS/showparts.js" working-dir="$PROJECT_DIR$/src/main/resources/static/JS">
+      <method v="2" />
+    </configuration>
+    <configuration name="Springboottest1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testObject1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboottest1.Springboottest1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_springboottest1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50860" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="PORT" value="8081" />
+      <option name="LOCAL" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="c11727aa-0d4f-40dc-a652-2aca28a1bc17" />
+                    <id>c11727aa-0d4f-40dc-a652-2aca28a1bc17</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="c11727aa-0d4f-40dc-a652-2aca28a1bc17" />
+                    <id>c11727aa-0d4f-40dc-a652-2aca28a1bc17</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="729ecb26-2032-4b54-af73-9d39ee739958" />
+                    <id>729ecb26-2032-4b54-af73-9d39ee739958</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="729ecb26-2032-4b54-af73-9d39ee739958" />
+                    <id>729ecb26-2032-4b54-af73-9d39ee739958</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2570" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testObject" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 8.0.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="PORT" value="8081" />
+      <option name="LOCAL" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="c11727aa-0d4f-40dc-a652-2aca28a1bc17" />
+                    <id>c11727aa-0d4f-40dc-a652-2aca28a1bc17</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="c11727aa-0d4f-40dc-a652-2aca28a1bc17" />
+                    <id>c11727aa-0d4f-40dc-a652-2aca28a1bc17</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="729ecb26-2032-4b54-af73-9d39ee739958" />
+                    <id>729ecb26-2032-4b54-af73-9d39ee739958</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="729ecb26-2032-4b54-af73-9d39ee739958" />
+                    <id>729ecb26-2032-4b54-af73-9d39ee739958</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2570" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.testArr" />
+      <item itemvalue="Application.DelTagsUtil" />
+      <item itemvalue="Application.TestLucene" />
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="Node.js.showparts.js" />
+      <item itemvalue="Spring Boot.Springboottest1Application" />
+      <item itemvalue="Tomcat Server.testObject" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.showparts.js" />
+        <item itemvalue="Application.TestLucene" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbc5b0a6-06a0-4b14-89b1-5ce542808e18" name="Default" comment="" />
+      <created>1535594968719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535594968719</updated>
+      <workItem from="1535595007953" duration="13810000" />
+      <workItem from="1535674967943" duration="19513000" />
+      <workItem from="1535944352353" duration="823000" />
+      <workItem from="1535945901814" duration="11832000" />
+      <workItem from="1536020760624" duration="5930000" />
+      <workItem from="1536110573489" duration="4347000" />
+      <workItem from="1536132851442" duration="166000" />
+      <workItem from="1536133437402" duration="96000" />
+      <workItem from="1536201494227" duration="552000" />
+      <workItem from="1536225943509" duration="611000" />
+      <workItem from="1536303942055" duration="6569000" />
+      <workItem from="1536541789188" duration="17000" />
+      <workItem from="1536569114042" duration="1711000" />
+      <workItem from="1536571414521" duration="750000" />
+      <workItem from="1536628388335" duration="2093000" />
+      <workItem from="1536713064320" duration="655000" />
+      <workItem from="1536801120210" duration="471000" />
+      <workItem from="1536801610083" duration="6097000" />
+      <workItem from="1536809965356" duration="1996000" />
+      <workItem from="1537172665296" duration="3367000" />
+      <workItem from="1537176047892" duration="92000" />
+      <workItem from="1537176146984" duration="2203000" />
+      <workItem from="1537324186548" duration="2093000" />
+      <workItem from="1537492692466" duration="3936000" />
+      <workItem from="1537869072842" duration="544000" />
+      <workItem from="1538009297886" duration="107000" />
+      <workItem from="1538120875128" duration="1142000" />
+      <workItem from="1538267297832" duration="1303000" />
+      <workItem from="1538287637136" duration="1129000" />
+      <workItem from="1538298209918" duration="3271000" />
+      <workItem from="1538958625207" duration="894000" />
+      <workItem from="1538959546312" duration="539000" />
+      <workItem from="1539047424939" duration="1375000" />
+      <workItem from="1539048807947" duration="652000" />
+      <workItem from="1539057363956" duration="2020000" />
+      <workItem from="1539132506026" duration="2575000" />
+      <workItem from="1539137016215" duration="1228000" />
+      <workItem from="1539584726908" duration="7561000" />
+      <workItem from="1543386248702" duration="264000" />
+      <workItem from="1575031822729" duration="3505000" />
+      <workItem from="1575035391504" duration="2575000" />
+      <workItem from="1575098041199" duration="303000" />
+      <workItem from="1575098653809" duration="17732000" />
+      <workItem from="1575168448171" duration="13128000" />
+      <workItem from="1575187515183" duration="599000" />
+      <workItem from="1575188445002" duration="21181000" />
+      <workItem from="1575251719482" duration="10299000" />
+      <workItem from="1575285188258" duration="14125000" />
+      <workItem from="1575342111463" duration="8960000" />
+      <workItem from="1575371535860" duration="9816000" />
+      <workItem from="1575421403376" duration="5935000" />
+      <workItem from="1575437633380" duration="28000" />
+      <workItem from="1575439407313" duration="9493000" />
+      <workItem from="1575457393150" duration="8422000" />
+      <workItem from="1575466643877" duration="1826000" />
+      <workItem from="1575507822375" duration="10592000" />
+      <workItem from="1575598037565" duration="2429000" />
+      <workItem from="1575607238695" duration="12589000" />
+      <workItem from="1575622006878" duration="13755000" />
+      <workItem from="1575696222694" duration="9923000" />
+      <workItem from="1575709830933" duration="6469000" />
+      <workItem from="1575772837651" duration="27889000" />
+      <workItem from="1575857923980" duration="1477000" />
+      <workItem from="1575859431513" duration="908000" />
+      <workItem from="1575860439568" duration="490000" />
+      <workItem from="1576383953401" duration="314000" />
+      <workItem from="1576392177087" duration="767000" />
+      <workItem from="1576557433221" duration="8875000" />
+      <workItem from="1576806060073" duration="1850000" />
+      <workItem from="1590373055016" duration="89000" />
+      <workItem from="1590373201039" duration="1551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1590393811472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590393811472" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springboottest1/luncene/TestLucene.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

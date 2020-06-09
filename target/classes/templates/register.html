@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="/JS/jquery-1.11.0.min.js"></script>
+    <script src="/JS/jquery-form.js"></script>
+    <script src="/JS/register.js"></script>
+<link href="/CSS/register.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<img src= "/images/img0.jpg" width = "100%" height = "950px" alt=""/>
+
+<div class="register_div">
+    <p id="hh1"><strong>注册系统</strong></p>
+    <p>用户名:<input type="text" name="username" id="u1"/></p>
+<p>公司:&nbsp;<input type="text" name="company" id="c1"/></p>
+    <p>买/卖家:
+    <select type="text" name="kind" id="k1">
+        <option>买家</option>>
+        <option>卖家</option>
+    </select></p>
+
+<p>密码:&nbsp;<input type="password" name="password" id="p1"/></p>
+<p>确认密码:<input type="password" name="password2" id="p2"/></p>
+    <input type="button" value="注册" onclick="regist()" id="b_r">
+</div>
+</body>
+</html>
